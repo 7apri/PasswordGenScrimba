@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 0.9;
+    background-color: #1F2937;
+    color: whitesmoke;
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin:0;
+}
+header{
+    margin-bottom: 20px;
+    border-bottom: 2px solid grey;
+    max-width: fit-content;
+}
+main{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#suble-txt{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #9CA3AF;
+}
+#rand-pass{
+    font-weight: bold;
+    font-size: 40px;
+    margin:0;
+    color: #34D399;
+}
+#gen-pass-btn{
+    margin: 10px 0px 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    background-color: #02e994;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#gen-pass-btn:hover{
+    background-color: #059669;
+}
+.gen-pass{
+    background-color: #496E83;
+    margin: 10px 0px 20px;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.gen-pass:hover{
+    background-color: #2C3E50;
+}
+.gen-pass.clicked{
+    background-color: #34D399;
+    padding: 0;
+}
+#pass-length , #pass-num{
+    margin: 10px 0px 20px;
+    padding: 10px;
+    width: 90px;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    background-color: #34D399;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    margin-top: 500px;
+    padding-top: 10px;
+    color: #9CA3AF;
+}
